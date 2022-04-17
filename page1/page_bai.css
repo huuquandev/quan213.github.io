@@ -1,0 +1,126 @@
+#style-bai1{
+    font-size: 17px;
+    margin: auto;
+    width: 1536px;
+    height: 180px;
+    background:#1d3145;
+    background-size: cover;
+    color: #fff ;
+}
+#style-bai1 h2{
+    padding-top: 90px;
+    padding-left: 100px;
+}
+#content-bai1{
+    font-size: 17px;
+    margin: auto;
+    width: 1536px;
+    height: 180px;
+    background:#1d3145;
+    background-size: cover;
+    color: #fff ;
+}
+#content-bai1 h2{
+    padding-left: 100px;
+}
+#content-bai1 li{
+    margin-left: 100px;
+    font-size: 15px;
+    padding: 5px; 
+}
+#content2-bai1{
+    font-size: 17px;
+    margin: auto;
+    width: 1536px;
+    height: 600px;
+    background:#1d3145;
+    background-size: cover;
+    color: #fff ;
+}
+#content2-bai1 h2{
+    padding-left: 100px;
+}
+#content2-bai1 img{
+    width: 1000px;
+    margin-left: 100px;
+    height: 500px;
+    padding: 4px;
+}
+#content3-bai1{
+    font-size: 17px;
+    margin: auto;
+    width: 1450px;
+    height: 430px;
+    background:#3c4a72;
+    background-size: cover;
+    color: #fff ;
+    border-radius: 5px;
+}
+#content3-bai1 #content3-bai1-vd{
+    font-size: 20px;
+    margin: auto;
+    width: 1335px;
+    height: 320px;
+    background:#fff;
+    background-size: cover;
+    color: #fff ;
+    border-left: 5px solid rgb(37, 227, 37);
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+a.button{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-decoration: none;  
+}
+a.button.next{
+    background: #0099FF;
+    color: #fff;
+    margin-left: 40px;
+}
+a.button2{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-decoration: none;  
+}
+a.button2.next{
+    background: #0099FF;
+    color: #fff;
+    margin-left: 100px;
+}
+#content4-bai1{
+    font-size: 17px;
+    margin: auto;
+    width: 1536px;
+    height: 290px;
+    background:#1d3145;
+    background-size: cover;
+    color: #fff ;
+}
+#content4-bai1 h2{
+    padding-left: 100px;
+}
+#content4-bai1 p{
+    padding-left: 100px;
+    font-size: 13px;
+}
+#content5-bai1{
+    font-size: 17px;
+    margin: auto;
+    width: 1536px;
+    height: 130px;
+    background:#1d3145;
+    background-size: cover;
+    color: #fff ;
+}
+#content5-bai1 h2{
+    padding-left: 100px;
+}
+#content5-bai1 p{
+    padding-left: 100px;
+    font-size: 13px;
+}

@@ -1,0 +1,209 @@
+#style-page{
+    font-size: 17px;
+    margin: auto;
+    width: 1200px;
+    height: 310px;
+    background:#273c75;
+    background-size: cover;
+    color: #fff ;   
+
+}
+#style-page h2{
+    padding-top: 90px;
+    margin: 0;
+    padding-left: 100px;
+}
+.title-page{
+    padding-right: 15px;
+    border-bottom: 1px solid #8c94b3;
+}
+.title-page .title-page_author{
+    display: flex;
+    align-items: center;
+}
+.title-page .title-page_author .author{
+    display: flex;
+    align-items: center;
+    margin-left: 95px;
+}
+.title-page .title-page_author .author img{
+    width: 31px;
+    height: 31px;
+    margin-right: 15px;
+    padding-top: 10px;
+}
+.title-page .title-page_author .author a{
+    max-width: 135px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    color: #a5adba;
+}
+.title-page .title-page_author .student{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #a5adba;
+    margin: 15px;
+}
+.title-page .title-page_author .student i{
+    margin: 4px;
+}   
+.title-page .title-wrap{
+    line-height: 22px;
+    margin-top: 20px;
+    margin-left: 95px;
+    width: 700px;
+}
+.actions-wrap{
+    padding-left: 15px;
+    flex:1;
+    text-align: right;
+    margin-right: 30px;
+}
+.actions-wrap .text-price-free{
+    color: #24ddff;
+}
+#course-detail{
+    position: relative;
+    padding: 0;
+}
+#course-detail .container-page{
+    margin-top: 20px;
+    padding: 0;
+}
+#main-menu-page{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    font-weight: bold;
+    border-bottom: 1px solid #8c94b3;
+    background: #1f2429;
+    padding-left: 170px;
+} 
+#main-menu-page li{
+    position: relative;
+}
+#main-menu-page li a{
+    color: #f8f8f8;
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+#main-menu-page ul.sub-menu{
+    list-style: none;
+    position: absolute;
+    background-color: #2c3e50;
+    padding: 15px 0px;
+    width: 200px;
+    border: 1px solid rgb(78, 78, 78);
+    display: none;
+    top: 100%;
+    right: 0;
+}
+#main-menu-page li:hover>ul.sub-menu{
+    display: block;
+}
+#main-menu-page ul.sub-menu a{
+    padding: 8px 15px;
+    border-bottom: 1px solid rgb(78, 78, 78);
+    left: 0;
+}
+#main-menu-page ul.sub-menu li:hover>a{
+    border-bottom: 1px solid rgb(250, 250, 250);
+}
+#main-menu-page ul.sub-menu li:last-child a{
+    border: none;
+}
+#main-menu-page ul.sub-menu ul.sub-menu{
+    left: 200px;
+    top: -15px; 
+}
+#main-menu-page>li>a{
+    position: relative;
+}
+#main-menu-page>li>a::before{
+    content: "";
+    height: 4px;
+    width: 0px;
+    background-color: #1ac0e5;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#main-menu-page>li:hover>a::before{
+    width: 100%;
+}
+
+#main-menu .sub-menu li:hover>a{
+    color: #1ac0e5;
+}
+.main-page{
+    border-bottom: 1px solid #8c94b3
+}
+.main-page #style-main{
+    font-size: 17px;
+    margin: auto;
+    width: 1519px;
+    height: 225px;
+    background:#3c4a72;
+    background-size: cover;
+    color: #fff ;
+}
+.main-page #style-main h2{
+    margin: 0;
+    padding-left: 40px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.main-page h1{
+    padding: 20px;
+    margin: 0;
+    color: #fff;
+}
+a.button{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-decoration: none;  
+}
+a.button.next{
+    background: #0099FF;
+    color: #fff;
+    margin-left: 40px;
+}
+.main-page h2{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 35px;
+}
+.main-page #style-main h1{
+    font-size: 25px;
+}
+.main-page #style-main2{
+    font-size: 15px;
+    margin: auto;
+    width: 1519px;
+    height: 500px;
+    background:#3c4a72;
+    background-size: cover;
+    color: #fff ;
+}
+.main-page #style-main2 #style-main2-vd{
+    font-size: 20px;
+    margin: auto;
+    width: 1335px;
+    height: 320px;
+    background:#fff;
+    background-size: cover;
+    color: #fff ;
+    border-left: 5px solid rgb(37, 227, 37);
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.main-page #style-main2 #style-main2-vd span{
+    padding-top: 10px
+}

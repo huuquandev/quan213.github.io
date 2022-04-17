@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" 
+    integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../app.css">
+    <link rel="stylesheet" href="./page_bai2.css">
+    <link rel="stylesheet" href="./page_bai.css">
+    <title>Cú pháp CSS</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <a href="" id="logo"><img src="../logo1.png" alt=""></a>
+            <nav class="container">
+                <ul id="main-menu">
+                    <li><a href="../index.html">Trang chủ</a></li>
+                    <li><a href="">Học Tập</a></li>
+                    <li><a href="">Luyện Tập</a></li>
+                    <li><a href="">Thi Đấu</a></li>
+                    <li><a href="">Thảo luận</a></li>
+                    <li><a href="">Giới thiệu</a></li>
+                </ul>
+                <ul id="main-menu">
+                    <li><a href=""><i class="fa-solid fa-globe"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href="">Tiếng việt</a></li>
+                            <li><a href="">English</a></li>
+                        </ul></li>
+                    <li><a href=""><i class="fa-solid fa-bell"></i></a>
+                    </li>
+                    <li><a href=""><i class="fa-solid fa-user"></i></a>
+                        <ul class="sub-menu">
+                            <li><a href=http://127.0.0.1:5500/giaodien/login.html>Đăng Nhập</a></li>
+                            <li><a href="http://127.0.0.1:5500/giaodien/create.html">Đăng Ký</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div id="style-bai2">  
+        <h2>Cú pháp CSS</h2> 
+        <a href="./page_bai1.html" class="button2 next"><span class="button2-text">&lt;&lt; Bài Trước</span></a>
+        <a href="./page_bai3.html" class="button2 next"><span class="button2-text">Bài Tiếp >></span></a>
+    </div>
+    <hr>
+    <p style="color: white;margin-left: 95px;font-size: 15px;">Quy tắc CSS bao gồm một bộ chọn và một khối khai báo.</p>
+    <div id="content-bai2"> 
+        <hr> 
+        <h2>Cú pháp CSS</h2>
+        <img src="../image/image_bai2.gif" alt="" style="margin-left: 100px;">
+        <p>Bộ chọn trỏ đến phần tử HTML mà bạn muốn tạo kiểu.   </p>
+        <p>Khối khai báo chứa một hoặc nhiều khai báo được phân tách bằng dấu chấm phẩy.</p>
+        <p>Mỗi khai báo bao gồm một tên thuộc tính CSS và một giá trị, được phân tách bằng dấu hai chấm.</p>
+        <p>Nhiều khai báo CSS được phân tách bằng dấu chấm phẩy và các khối khai báo được bao quanh bởi dấu ngoặc nhọn.</p>
+    </div>
+    <hr>
+    <div id="content2-bai2">
+        <h1 style="margin-left: 40px;font-size: 20px;">Ví dụ CSS</h1>
+        <div id="content2-bai2-vd">
+            <span class="cssselectorcolor" style="color:brown">
+                p
+                <span class="cssdelimitercolor" style="color:black">{</span><span class="csspropertycolor" style="color:red"><br>
+                &nbsp;&nbsp;color<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> red<span class="cssdelimitercolor" style="color:black">;</span></span><br>
+                &nbsp;&nbsp;text-align<span class="csspropertyvaluecolor" style="color:mediumblue"><span class="cssdelimitercolor" style="color:black">:</span> center<span class="cssdelimitercolor" style="color:black">;</span></span><br>
+                </span><span class="cssdelimitercolor" style="color:black">}</span>
+                 </span>
+        </div>
+        <a href="" class="button next"><span class="button-text">Tự Code &gt;&gt;</span></a>
+    </div>
+    <div id="content3-bai2">    
+        <h2>Giải thích ví dụ</h2>
+        <ul>
+            <li><code class="w3-codespan">p</code>là một bộ chọn trong CSS (nó trỏ đến phần tử HTML mà bạn muốn tạo kiểu: &lt;p&gt;).</li>
+            <li><code class="w3-codespan">color</code>là một tài sản, và<code class="w3-codespan">red</code>là giá trị tài sản</li>
+            <li><code class="w3-codespan">text-align</code>là một tài sản, và   <code class="w3-codespan">center</code>là giá trị tài sản</li>
+            </ul>
+    </div>
+    <div id="footer">
+        <div class="grid">
+            <div class="footer-section">
+                <div class="intro">
+                    <div class="logo">
+                        <p>CD-LEARNING</p>
+                    </div>
+                    <p class="footer__solgan">Cd-learning là nền tảng tương tác trực tuyến hỗ trợ người dùng học tập,
+                         thực hành, thi đấu và đánh giá kỹ năng lập trình một cách nhanh chóng và chính xác.</p>
+                    <div class="footer-icon">
+                        <a href="" style="color: rgb(64, 108, 191);">
+                            <i class="fa-brands fa-facebook-square icon-info"></i>
+                        </a>
+                        <a href="" style="color: rgba(245, 6, 145, 0.566)";>
+                            <i class="fa-brands fa-instagram-square"></i>
+                        </a>
+                        <a href="" style="color: rgba(252, 6, 6, 0.566)">
+                            <i class="fa-brands fa-youtube-square"></i>
+                        </a>
+                        <a href="" style="color: rgba(48, 130, 237, 0.566)">
+                            <i class="fa-brands fa-twitter-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="visit">
+                    <div class="web-info">
+                        <h2>Thông tin</h2>
+                        <a href="">
+                            Chia sẻ 
+                        </a><br>
+                        <a href="">
+                            Về chúng tôi
+                        </a><br>
+                        <a href="">
+                            Điều Khoản Sử Dụng
+                        </a><br>
+                    </div>
+                    <div class="web-shared">
+                        <h2>Liên kết</h2>
+                        <a href="">
+                            Học tập
+                        </a><br>    
+                        <a href="">
+                            Luyện Tập
+                        </a><br>
+                        <a href="">
+                            Cuộc Thi
+                        </a><br>
+                        <a href="">
+                            Trò Chơi
+                        </a><br>    
+                    </div>
+                    <div class="web-suport">
+                        <h2>Trợ giúp</h2>
+                        <a href="">     
+                            Hỗ Trợ
+                        </a><br>
+                        <a href="">
+                            Thảo luận
+                        </a><br>
+                        <a href="">
+                            Liên hệ với chúng tôi
+                        </a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
